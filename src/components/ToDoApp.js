@@ -54,14 +54,14 @@ export const ToDoApp = () => {
             <h1>ToDo App ({ toDo.length })</h1>
             <hr></hr>
             <div className="row">
-                <div className="col-7" >
+                <div className="col-md-7" >
                     <ToDoList 
                         toDo={toDo}
                         handleDelete={handleDelete}
                         handleTogggle={handleTogggle}
                     />
                 </div>
-                <div className="col-5">
+                <div className="col-md-5 m-t">
                     <h4>Add ToDo</h4>
                     <hr></hr>
                     <ToDoAdd 
