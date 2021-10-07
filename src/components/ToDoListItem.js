@@ -9,7 +9,7 @@ export const ToDoListItem = ( { index, id, desc, done, handleTogggle, handleDele
     return (
         <li className="list-group-item" >
             <p 
-                className={done && 'complete'}
+                className={done ? 'complete' : ''}
                 onClick={() => handleTogggle(id) }
             >
                 {index + 1}.- {desc}
