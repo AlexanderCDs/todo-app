@@ -1,4 +1,4 @@
-# ![hooks-app](https://raw.githubusercontent.com/alexandercds/todo-app/master/src/assets/images/preview.jpg)
+# ![todo-app](https://raw.githubusercontent.com/alexandercds/todo-app/master/src/assets/images/preview.jpg)
 # ToDo App
 <table>
 <tr>
