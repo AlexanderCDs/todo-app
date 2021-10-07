@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {      
+    color: #FFFF;
+    background: #23272a;
+} 
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+p {
+    cursor: pointer;
+    margin: 0px;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+ 
+
+.todo-app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
